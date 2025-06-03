@@ -135,7 +135,9 @@
             }
             
             historyList.innerHTML = dates.slice(0, 10).map(dateStr => {
-                const date = new Date(dateStr);
+                // const date = new Date(dateStr);
+                const dateParts = dateStr.split('-');
+                const date = new Date(parseInt(dateParts[0]), parseInt(dateParts[1]) - 1, parseInt(dateParts[2]));
                 const count = exerciseData[dateStr];
                 const dots = Array.from({length: 3}, (_, i) => 
                     `<div class="exercise-dot ${i < count ? 'completed' : ''}"></div>`
