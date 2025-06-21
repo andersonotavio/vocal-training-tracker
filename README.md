@@ -66,17 +66,6 @@ Um aplicativo web simples e elegante para acompanhar e gerenciar sua rotina diá
 - ✅ **Edge** (versão 79+)
 - ✅ **Dispositivos móveis** (iOS Safari, Chrome Mobile)
 
-## 🏗️ Estrutura do Projeto
-
-```
-voice-exercise-tracker/
-│
-├── index.html          # Arquivo principal da aplicação
-├── README.md           # Este arquivo
-└── assets/
-    ├── styles/         # Estilos CSS integrados
-    └── scripts/        # JavaScript integrado
-```
 
 ## 🎯 Casos de Uso
 
